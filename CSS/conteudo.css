@@ -1,0 +1,116 @@
+table, th, td{
+    background-color: #ff6666;
+    border: 0px solid #ffffff;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Belleza', sans-serif;
+}
+
+#titulo{
+    color:#ff6666;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Belleza', sans-serif;
+}
+
+h2{
+    color:#ff6666;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Arial Narrow';
+ }
+
+.linhaBranca{
+    color: #ffffff;
+}
+
+header{
+    background-image: url("../img/paisagem-natura.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #b3b3ff;
+    max-width: 1500px;
+}
+
+header h1{
+    padding-top: 20px;
+}
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Modificar a cor de fundo da linha (li) */
+nav{
+    padding: 1px 0px;
+    background-color: #ff6666;
+}
+
+/* Modificar os links da lista (li) */
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none; /* Retira o underline */
+}
+
+/* HOVER: aplica uma cor ao passar o mouse por cima */
+nav ul li a:hover{
+    color: #ff6666;
+}
+
+/* Conteúdo das listas ordenadas e suas respectivas li em linha*/
+nav ul li{
+    display: inline;
+    padding-right: 5px;
+}
+
+section{
+    background-color: #ffffff;
+    color:black;
+    width: 100%; /* ou também pode usar padding: 100px 0 90px 50px; */
+    height: 100%;
+    max-width: 1500px;
+    text-align: justify;
+}
+    
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ff6666;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.copia{
+    color: #ff6666;
+}
+
+section img{
+    border-radius: 75%;
+    max-width: 400px;
+}
+
+section h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.link a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #ff6666
+}
